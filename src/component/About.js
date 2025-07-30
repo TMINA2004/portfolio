@@ -10,7 +10,7 @@ const About = () => {
                 HEY! I’m Amina,<br/>  Web   
            </div>
           <div className=' text-dark-blue lg:text-base flex m-2  text-center  items-center justify-center md:text-sm text-xs text-[10px] '>
-                 <div className='lg:w-1/2 md:w-3/4 sm:w-3/4 w-full bg-red-200 '>
+                 <div className='lg:w-1/2 md:w-3/4 sm:w-3/4 w-full  '>
                      Agency-quality Webflow websites with the personal touch of a freelancer
                  </div>
            
