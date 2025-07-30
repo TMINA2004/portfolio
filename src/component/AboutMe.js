@@ -2,9 +2,9 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='flex bg-gray-100 rounded-tr-full mb-10  gap-20 pl-16 shadow shadow-black'>
+    <div className='md:flex grid grid-col-1 bg-gray-100 rounded-tr-full mb-10  gap-20 md:pl-16 shadow shadow-black '>
        
-        <div className='w-1/2'> 
+        <div className='md:w-1/2 w-full'> 
             <div className='flex justify-center items-center text-dark-blue text-3xl font-bold pt-5'>About Me</div>
            <div className='flex justify-center items-center text-dark-blue p-5' >
             <div>
