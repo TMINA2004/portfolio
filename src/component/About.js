@@ -3,14 +3,14 @@ import image from './Image-2.png'
 
 const About = () => {
   return (
-    <div className='flex gap-20 mt-10  m-10     '>
+    <div className='flex md:gap-20 mt-10  m-10 gap-5     '>
         <div className='flex justify-end items-center  text-center  w-[50%]  '>
          <div className='  text-center items-end justify-end '>
            <div className='text-dark-blue lg:text-5xl text-center md:text-3xl sm:text-2xl text-lg'>
                 HEY! I’m Amina,<br/>  Web   
            </div>
           <div className=' text-dark-blue lg:text-base flex m-2  text-center  items-center justify-center md:text-sm text-xs text-[10px] '>
-                 <div className='lg:w-1/2 md:w-3/4 sm:w-3/4 '>
+                 <div className='lg:w-1/2 md:w-3/4 sm:w-3/4 w-full bg-red-200 '>
                      Agency-quality Webflow websites with the personal touch of a freelancer
                  </div>
            
