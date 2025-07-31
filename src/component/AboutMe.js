@@ -6,7 +6,7 @@ const AboutMe = () => {
   last_name: "Touati",
   status: "Computer Science Student",
   location: "Béjaïa, Algeria",
-  description: "I'm deeply interested in technology, especially in web development and artificial intelligence. I enjoy creating responsive, user-friendly websites.",
+  description: "I'm deeply interested in technology, especially in web development and artificial intelligence.",
   skills: [
     "Web Development",
     "React.js",
@@ -30,12 +30,8 @@ const AboutMe = () => {
                <h1 className="text-2xl font-bold">{profile.first_name} {profile.last_name}</h1>
       <p className="text-gray-600 italic">{profile.status} – {profile.location}</p>
       <p className="mt-4 md:text-2xl sm:text-sm md:full w-3/4 text-xs">{profile.description}</p>
-      <h2 className="mt-6 font-semibold">Skills:</h2>
-      <ul className="list-disc ml-5 mt-2">
-        {profile.skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
+      
+     
 
                   
 
@@ -49,16 +45,17 @@ const AboutMe = () => {
 
        
   
-  <ul className="grid md:grid-cols-2 grid-cols-4 gap-4 text-center text-dark-blue md:text-2xl md:pt-10 text-lg w-full pb-16 ">
+  <ul className="grid md:grid-cols-2 sm:grid-cols-4 grid-col-3 gap-4 text-center text-dark-blue md:text-2xl md:pt-10 text-lg w-full pb-16 ">
     <li>⚛️ React.js</li>
     
-    <li>🎨 Tailwind CSS</li>
-    <li>🧠 AI Basics</li>
-    <li>📝 JavaScript</li>
-    <li>🐍 Python</li>
-    <li>🌐 HTML/CSS</li>
-    <li>📦 GitHub</li>
-    <li>🟩 Node.js</li>
+    <li  data-aos="fade-right" >🎨 Tailwind CSS</li>
+    <li data-aos="fade-right" >🧠 AI Basics</li>
+    <li data-aos="fade-right" >📝 JavaScript</li>
+    <li data-aos="fade-right" >🐍 Python</li>
+    <li data-aos="fade-right" >🌐 HTML/CSS</li>
+    <li data-aos="fade-right" >📦 GitHub</li>
+    <li data-aos="fade-right" >🟩 Node.js</li>
+    <li data-aos="fade-right" >loading ...</li>
   </ul>
 
                 </div>   

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     /*  lg:bg-green-400 md:bg-red-600 sm:bg-blue-500 bg-yellow-300 */ 
     <div className='text-dark-blue  flex'>
-       <div className=' lg:m-4 lg:text-2xl lg:ml-[20%] md:text-xl m-2 md:ml-[15%] sm:ml-[15%] ml-[5%] sm:text-base text-sm transition-transform duration-500 hover:scale-110 ease-in-out hover:text-purple-900 '>Amina Protfolio</div> 
+       <div className=' lg:m-4 lg:text-2xl lg:ml-[20%] md:text-xl m-2 md:ml-[15%] sm:ml-[15%] ml-[5%] sm:text-base text-xs transition-transform duration-500 hover:scale-110 ease-in-out hover:text-purple-900 '>Amina Protfolio</div> 
        <div className='md:text-base lg:text-xl flex lg:ml-[20%] md:ml-[15%] sm:ml-[10%] sm:text-sm text-xs ml-[7%] '>
         <div className='lg:m-4 m-2 hover:text-purple-600'>Home</div> 
         <div className='lg:m-4 m-2 hover:text-purple-600 '>About me</div> 
