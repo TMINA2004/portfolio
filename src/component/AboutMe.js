@@ -25,9 +25,9 @@ const AboutMe = () => {
        
         <div className='md:w-1/2 w-full b'> 
        
-           <div className='flex justify-center items-center text-dark-blue md:p-5 md:px-3 sm:pl-20  ' >
+           <div className='flex justify-center items-center text-dark-blue md:p-5 md:px-3 sm:pl-20 pl-2  ' >
             <div>
-               <h1 className="text-2xl font-bold">{profile.first_name} {profile.last_name}</h1>
+               <h1 className="text-2xl font-bold ">{profile.first_name} {profile.last_name}</h1>
       <p className="text-gray-600 italic md:text-2xl sm:text-md text-sm">{profile.status} – {profile.location}</p>
       <p className="mt-4 md:text-2xl sm:text-sm md:full w-3/4 text-xs">{profile.description}</p>
       
