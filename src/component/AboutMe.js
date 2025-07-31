@@ -29,7 +29,7 @@ const AboutMe = () => {
             <div>
                <h1 className="text-2xl font-bold">{profile.first_name} {profile.last_name}</h1>
       <p className="text-gray-600 italic">{profile.status} – {profile.location}</p>
-      <p className="mt-4 md:text-2xl text-sm md:full w-3/4">{profile.description}</p>
+      <p className="mt-4 md:text-2xl sm:text-sm md:full w-3/4 text-xs">{profile.description}</p>
       <h2 className="mt-6 font-semibold">Skills:</h2>
       <ul className="list-disc ml-5 mt-2">
         {profile.skills.map((skill, index) => (
