@@ -8,25 +8,25 @@ const Mywork = () => {
       <div className='text-3xl text-dark-blue'>My works</div>
     </div>
     <div className='sm:mx-20 mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 mx-10 shadow-lg shadow-zinc-600'>
-      <div className=''>
-             <a href='https://github.com/hadjerbk/todolist.git'  target="_blank" rel="noopener noreferrer" >
+      <div className='hover:'>
+             <a href='https://github.com/hadjerbk/todolist.git'    data-aos="zoom-in" target="_blank" rel="noopener noreferrer" >
                <img className=''  src={img} />
              </a>
       </div>
       <div> 
-         <a href='https://github.com/hadjerbk/todolist.git'  target="_blank" rel="noopener noreferrer" >
+         <a href='https://github.com/hadjerbk/todolist.git' data-aos="zoom-in"  target="_blank" rel="noopener noreferrer" >
            <img className=''  src={img} />
           </a>
 
       </div>
       
       <div>
-            <a href='https://github.com/hadjerbk/todolist.git'  target="_blank" rel="noopener noreferrer" >
+            <a href='https://github.com/hadjerbk/todolist.git' data-aos="zoom-in"  target="_blank" rel="noopener noreferrer" >
                <img className=''  src={img} />
             </a>
       </div>
       <div>
-            <a href='https://github.com/hadjerbk/todolist.git'  target="_blank" rel="noopener noreferrer" >
+            <a href='https://github.com/hadjerbk/todolist.git' data-aos="zoom-in"  target="_blank" rel="noopener noreferrer" >
                <img className=''  src={img} />
             </a>
       </div>

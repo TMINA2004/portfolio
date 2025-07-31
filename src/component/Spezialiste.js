@@ -5,7 +5,7 @@ const Spezialiste = () => {
   <div className='flex bg-gray-100 rounded-tl-full gap-5  mb-20'>
     <div className='md:w-1/4  rounded-tl-full flex relative w-10  '>
 
-     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" className="md:w-20 h-16 absolute left-72 top-52 w-8 " />
+     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" className="md:w-20 h-16 absolute left-72 top-52 w-8 "/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" className="md:w-20 h-16 absolute left-80 top-10 w-8 " />
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" className="md:w-20 h-14 absolute left-96 top-32 w-8 " />
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" className="md:w-20 h-14 absolute left-32 top-36 w-8 " />

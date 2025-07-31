@@ -1,38 +1,55 @@
 import React from 'react'
 
 const AboutMe = () => {
+  const profile = {
+  first_name: "Amina",
+  last_name: "Touati",
+  status: "Computer Science Student",
+  location: "Béjaïa, Algeria",
+  description: "I'm deeply interested in technology, especially in web development and artificial intelligence. I enjoy creating responsive, user-friendly websites.",
+  skills: [
+    "Web Development",
+    "React.js",
+    "JavaScript (ES6+)",
+    "HTML & CSS",
+    "Tailwind CSS",
+    "Git & GitHub",
+    "Python (Basics)",
+    "Node.js (Basics)",
+    "AI & Machine Learning (Beginner)",
+    "Always eager to learn!"
+  ]
+};
   return (
-    <div className='md:flex grid grid-col-1 bg-gray-100 md:rounded-tr-full mb-10  md:gap-20 md:pl-16 shadow shadow-black gap-5 '>
+    <div data-aos="fade-right" className=' md:flex grid grid-col-1 bg-gray-100 md:rounded-tr-full md:rounded-br-full mb-10  md:gap-13 md:pl-16 shadow shadow-black gap-5 rounded-br-full rounded-tr-full '>
        
         <div className='md:w-1/2 w-full b'> 
-            <div className='flex justify-center items-center text-dark-blue text-3xl font-bold pt-5'>About Me</div>
-           <div className='flex justify-center items-center text-dark-blue md:p-5 px-3 ' >
+       
+           <div className='flex justify-center items-center text-dark-blue md:p-5 px-3 pl-20 pb-10 ' >
             <div>
+               <h1 className="text-2xl font-bold">{profile.first_name} {profile.last_name}</h1>
+      <p className="text-gray-600 italic">{profile.status} – {profile.location}</p>
+      <p className="mt-4 md:text-2xl text-sm md:full w-3/4">{profile.description}</p>
+      <h2 className="mt-6 font-semibold">Skills:</h2>
+      <ul className="list-disc ml-5 mt-2">
+        {profile.skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
 
-            
-               Hello! My name is <strong>Amina Touati</strong>, and I'm a passionate student based in <strong>Béjaïa, Algeria</strong>.
-             I’m deeply interested in <strong>technology</strong>, especially in web development, artificial intelligence.
-               <br/>
-               I’m deeply interested in web development and enjoy creating responsive, user-friendly websites.<br/> I work with technologies like <strong>React.js</strong> for building dynamic interfaces, <strong>JavaScript (ES6+)</strong> for interactivity,
-              <strong> HTML and CSS </strong> for structure and styling, and  <strong>Tailwind CSS</strong> 
-              
-              for utility-first design.<br/> I also use  <strong>Git and GitHub</strong> 
-               for version control and have basic experience with  <strong>Python </strong>
-                for scripting and backend fundamentals and <strong>nodejs</strong>. 
-                <br/>
-              I’m always eager to learn, grow, and take on new challenges in the tech world.
+                  
 
            </div>
            </div>
 
 
         </div>
-         <div className='flex justify-center items-center  '>
+         <div className='flex md:justify-center md:items-center '>
             <div>
 
        
-    <h2 className="text-dark-blue md:text-2xl  font-semibold mb-4 md:pt-6 text-2xl pt-0 ">💻 My Skills</h2>
-  <ul className="grid md:grid-cols-2 grid-cols-1 gap-4 text-center text-dark-blue md:text-lg md:pt-10 text-md">
+  
+  <ul className="grid md:grid-cols-2 grid-cols-4 gap-4 text-center text-dark-blue md:text-2xl md:pt-10 text-lg w-full pb-16 ">
     <li>⚛️ React.js</li>
     
     <li>🎨 Tailwind CSS</li>
