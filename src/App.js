@@ -20,7 +20,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="App">
+    <div className="App bg-gray-100">
  <Header/>
  <About/>
 <AboutMe/> 

@@ -21,7 +21,7 @@ const AboutMe = () => {
   ]
 };
   return (
-    <div data-aos="fade-right" className=' md:flex grid grid-col-1 bg-gray-100 md:rounded-tr-full md:rounded-br-full mb-10  md:gap-13 md:pl-16 shadow shadow-black gap-5 rounded-br-full rounded-tr-full '>
+    <div data-aos="fade-right" className=' md:flex grid grid-col-1 bg-white  mb-10  md:gap-13 md:pl-16 shadow shadow-black gap-5 m-20 '>
        
         <div className='md:w-1/2 w-full b'> 
        
